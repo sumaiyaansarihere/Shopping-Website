@@ -1,6 +1,5 @@
-
-import Image from "next/Image";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import Image from 'next/Image';  // Corrected import path
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 interface PropsType {
   img: string;
@@ -47,7 +46,6 @@ const AbayasCard: React.FC<PropsType> = ({
         width={200}
         height={300}
         alt={title}
-        layout="intrinsic"
       />
       <div className="space-y-2 py-2">
         {/* Title */}
@@ -70,5 +68,3 @@ const AbayasCard: React.FC<PropsType> = ({
 };
 
 export default AbayasCard;
-
-

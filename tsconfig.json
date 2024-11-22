@@ -5,7 +5,7 @@
     "jsx": "preserve",
     "esModuleInterop": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": false,
     "skipLibCheck": true,
     "baseUrl": "./", 
     "paths": {
