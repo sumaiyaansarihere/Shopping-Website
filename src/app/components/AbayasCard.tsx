@@ -1,4 +1,4 @@
-import Image from 'next/Image';  // Corrected import path
+import Image from 'next/image';  // Corrected import path
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 interface PropsType {

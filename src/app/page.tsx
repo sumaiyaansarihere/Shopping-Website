@@ -1,5 +1,7 @@
 
 import React from 'react';
+import  Image  from 'next';
+
 import Hero from "./components/Hero"; 
 import NewProducts from './components/NewProducts';
 import Categories from './components/Categories';
@@ -11,6 +13,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      
       <NewProducts />
       <Categories />
       <Abayas />
