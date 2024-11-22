@@ -25,7 +25,13 @@
     "plugins": [
       {
         "name": "next"
+      },
+      {
+        "compilerOptions": {
+          "typeRoots": ["./node_modules/@types", "./src/types"]
+        }
       }
+      
     ]
   },
   "include": [
